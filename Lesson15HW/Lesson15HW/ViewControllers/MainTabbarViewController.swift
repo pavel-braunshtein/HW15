@@ -5,4 +5,13 @@
 //  Created by Pavel on 17.07.2024.
 //
 
-import Foundation
+import UIKit
+
+class MainTabbarViewController: UITabBarController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.navigationController?.isNavigationBarHidden = true
+    }
+}
